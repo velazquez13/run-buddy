@@ -66,6 +66,8 @@ section {
     background-position: center;
     position: relative;
 }
+/* Hero Style End */
+
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -93,8 +95,7 @@ section {
     margin-bottom: 15px;
 }
 .hero-form label {
-    margin: 0 5 px
-    ;
+    margin: 0 5px;
 }
 .hero-form button {
     color: #fce138;
@@ -103,7 +104,6 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Style End */
 
 .intro {
     text-align: center;
@@ -136,19 +136,57 @@ section {
 .steps div {
     margin-bottom: 80px;
 }
-
 .steps img {
     width: 15%;
     margin: 10px 0;
 }
-
 .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
-
 .steps p {
     color: #39a6b2;
     font-size: 23px;
+}
+.steps span {
+    font-size: 38px;
+}
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
